@@ -12,7 +12,7 @@ pip install --upgrade pygnewslib
 
 ## Usage:
 ```py
-from pygnews import GoogleNews
+from pygnewslib import GoogleNews
 
 google_news = GoogleNews()
 json_resp = google_news.news('Pakistan')
