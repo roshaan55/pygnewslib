@@ -15,7 +15,7 @@ pip install --upgrade pygnewslib
 from pygnewslib import GoogleNews
 
 google_news = GoogleNews()
-json_resp = google_news.news('Pakistan')
+json_resp = google_news.fetch_news('Pakistan')
 results = []
 for ar in json_resp:
     results.append(ar["title"])
